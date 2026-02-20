@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#div-container{
+    width: 50vw;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    gap: 1vw;
+}
+
+
+
+
+.book-div{
+    background-color: rgb(240, 220, 130);
+}
+.book-icon{
+    padding: 0.5vw;
+    float: right;
+    width: 10vw;
+}
+.book-img{
+    padding: 0.5vw;
+    float: left;
+    width: 10vw;
+}
+.book-text{
+    font-size: 1.3vw;
+    padding-top: 5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.book-title{
+    font-size: 2vw;
+}
+.book-member{
+    font-size: 1.5vw;
+}
+.book-date{
+    font-size: 1.5vw;
+}
